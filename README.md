@@ -1,4 +1,4 @@
-# Pixel perfect
+# Pixel Perfect
 
 What is my browser size?
 
