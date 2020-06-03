@@ -1,0 +1,111 @@
+/*------------------------------------------------------------------------------
+-- // RESETS
+------------------------------------------------------------------------------*/
+
+html { box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html, body, div, span,
+header, nav, main, article, section, aside, footer,
+h1, h2, h3, h4, h5, h6,
+p, strong, em, b, i, u, a, ul, ol, li,
+table, caption, thead, tbody, tfoot, tr, th, td {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  font-size: 100%;
+  font-weight: 400;
+  vertical-align: baseline;
+}
+
+header, nav, main, article, section, aside, footer,
+table, form {
+  display: block;
+}
+
+/*------------------------------------------------------------------------------
+-- // BASE
+------------------------------------------------------------------------------*/
+
+body {
+  background-color: #cfd1d5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.6;
+  color: #e3e3e3;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol,
+table, form {
+  margin-bottom: 1em;
+}
+
+/*------------------------------------------------------------------------------
+-- // BASIC ELEMENTS
+------------------------------------------------------------------------------*/
+
+h3 {
+  margin-top: 2em;
+  font-size: 1.5em;
+  line-height: 1;
+  color: #f95959;
+}
+
+p { text-align: left; }
+p:last-child { margin-bottom: 0; }
+
+em { font-style: italic; }
+strong { font-weight: bold; }
+
+a {
+  border-bottom: 1px dashed #c9d4e2;
+  color: #c9d4e2;
+  text-decoration: none;
+}
+a:hover {
+  border-bottom: 1px solid #f95959;
+  color: #fefefe;
+}
+
+ul {
+  padding-left: 1em;
+  list-style-type: square;
+}
+
+ol { padding-left: 1em; }
+
+/*------------------------------------------------------------------------------
+-- // LAYOUT
+------------------------------------------------------------------------------*/
+
+.wrapper {
+  margin: 2em auto;
+  padding: 2em;
+  max-width: 40em;
+  border: 20px solid #e3e3e3;
+  background-color: #243142;
+}
+
+.site-header {
+  margin-bottom: 2em;
+  font-size: 2.625em;
+  font-family: 'Lobster', cursive;
+  color: #fefefe;
+}
+
+.text-browser-size {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: 4.5em;
+  color: #f95959;
+  text-align: center;
+}
+
+.text-divider-x { color: #c9d4e2; }
