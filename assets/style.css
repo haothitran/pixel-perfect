@@ -66,8 +66,20 @@ body {
 -- // BASE
 ------------------------------------------------------------------------------*/
 
-p { margin-bottom: calc(var(--spacing-unit) / 4); }
-p:last-child { margin-bottom: 0; }
+h1 { 
+  margin-top: calc(var(--spacing-unit) / 4); 
+  margin-bottom: var(--spacing-unit);
+  font-size: .75em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+ul {
+  padding-left: var(--spacing-unit);
+  list-style-type: disc;
+}
+li { margin-bottom: calc(var(--spacing-unit) / 4); }
 
 a { 
   color: var(--color-link);
@@ -76,11 +88,6 @@ a {
 a:hover { 
   color: var(--color-accent); 
   transition: .4s;
-}
-
-img { 
-  display: inline; 
-  vertical-align: middle;
 }
 
 /*------------------------------------------------------------------------------
