@@ -1,15 +1,15 @@
 /*------------------------------------------------------------------------------
--- // JAVASCRIPT
+-- // BROWSER SIZE
 ------------------------------------------------------------------------------*/
 
 function updateSize(){
   // get dimensions of browser viewport
   var width = window.innerWidth ||
-              document.documentElement.clientWidth ||
-              document.body.clientWidth;
+    document.documentElement.clientWidth ||
+    document.body.clientWidth;
   var height = window.innerHeight ||
-               document.documentElement.clientHeight ||
-               document.body.clientHeight;
+    document.documentElement.clientHeight ||
+    document.body.clientHeight;
 
   // change the content of HTML element
   document.getElementById('browser-width').innerHTML = width;
