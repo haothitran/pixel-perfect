@@ -73,8 +73,8 @@ h1 {
   margin-bottom: var(--spacing-unit);
   font-size: .75em;
   font-weight: bold;
-  letter-spacing: 2px;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 ul {
