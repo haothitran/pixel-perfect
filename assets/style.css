@@ -47,7 +47,7 @@ form {
   --color-border: #e3e3e3;
   --color-primary-background: #243142;
   --color-secondary-background: #ffffff33;
-  
+
   --color-accent: #f95959;
   --color-link: #2b5585;
 }
@@ -68,8 +68,8 @@ body {
 -- // BASE
 ------------------------------------------------------------------------------*/
 
-h1 { 
-  margin-top: calc(var(--spacing-unit) / 4); 
+h1 {
+  margin-top: calc(var(--spacing-unit) / 4);
   margin-bottom: var(--spacing-unit);
   font-size: .75em;
   font-weight: bold;
@@ -83,12 +83,12 @@ ul {
 }
 li { margin-bottom: calc(var(--spacing-unit) / 4); }
 
-a { 
+a {
   color: var(--color-link);
   text-decoration: none;
 }
-a:hover { 
-  color: var(--color-accent); 
+a:hover {
+  color: var(--color-accent);
   transition: .4s;
 }
 
@@ -121,7 +121,7 @@ a:hover {
   border-right: 1px solid var(--color-border);
   border-bottom: 1px solid var(--color-border);
   border-left: 1px solid var(--color-border);
-  background-color: var(--color-border);  
+  background-color: var(--color-border);
 }
 
 /*------------------------------------------------------------------------------
